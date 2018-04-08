@@ -14,8 +14,8 @@ var objects;
         __extends(Bullet, _super);
         // Constructor
         function Bullet(assetManager, x, y, 
-        // angle:number, 
-        canvasTop, canvasLeft, canvasWidth, canvasHeight) {
+            // angle:number, 
+            canvasTop, canvasLeft, canvasWidth, canvasHeight) {
             var _this = _super.call(this, assetManager, "bullet") || this;
             // Private Instance Variables
             _this.updateRate = 20;
